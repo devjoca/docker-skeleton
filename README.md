@@ -1,5 +1,5 @@
 # Docker Skeleton
-A docker skeleton  using docker-composer to set up a initial project
+A docker skeleton  using docker-compose to set up a initial project
 
 #Recomendation
 
