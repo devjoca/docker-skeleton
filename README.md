@@ -1,5 +1,13 @@
-# docker-skeleton
-A docker skeleton  using docker-composer to  set up a initial project
+# Docker Skeleton
+A docker skeleton  using docker-composer to set up a initial project
+
+#Recomendation
+
+Get your application code inside the application folder in order to make a separation between the enviroment needs and the application source code.
+
+In the docker folder, there is an example of a typical `Dockerfile` for a php-apache project.
+
+Its prefer that the docker-compose.yaml is ignore so every member of the project can use their own ports and volumes, but always commit an `docker-compose.yaml.example` to notify what containers are using the actual project.
 
 #License
 
