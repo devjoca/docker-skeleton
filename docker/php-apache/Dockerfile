@@ -10,8 +10,6 @@ RUN service apache2 restart
 
 RUN usermod -u 1000 www-data
 
-RUN export TERM=xterm
-
 #install common apache exntensions
 RUN apt-get update && apt-get install -y \
         git-core \
